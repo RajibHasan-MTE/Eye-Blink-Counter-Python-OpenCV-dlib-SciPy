@@ -20,7 +20,7 @@ frame_counter = 0
 
 # Load face detector and facial landmarks predictor
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("e:/Robotics_and_Mechatronics/Python/shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("Project/Python/shape_predictor_68_face_landmarks.dat")
 
 # Start video capture
 cap = cv2.VideoCapture(0)
